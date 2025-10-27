@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon --watch src --exec node src/server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "fastify": "^5.6.1",
+    "dotenv": "^16.4.5",
+    "axios": "^1.7.7"
+  }
+}
